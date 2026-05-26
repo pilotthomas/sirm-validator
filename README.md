@@ -1,1 +1,0 @@
-# sirm-validator

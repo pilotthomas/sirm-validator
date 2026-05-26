@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ListImageIOIndexedIntoDoclinkBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>695, 10</value>
+  </metadata>
+  <metadata name="CommonDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>440, 10</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="grdAnalysis.Images" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA3SURBVChTY2DABP+xiIGFkCVwsVEUwhThNREkiaEAJoiP
+        RnEmskKs7kd3C1YrYTrx+g6bIrAYAKCqHOQvFu6BAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="grdAnalysis.PrintInfo.PageSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACRTeXN0ZW0uRHJh
+        d2luZy5QcmludGluZy5QYWdlU2V0dGluZ3MHAAAAD3ByaW50ZXJTZXR0aW5ncwVjb2xvcglwYXBlclNp
+        emULcGFwZXJTb3VyY2URcHJpbnRlclJlc29sdXRpb24JbGFuZHNjYXBlB21hcmdpbnMEBAQEBAQEJ1N5
+        c3RlbS5EcmF3aW5nLlByaW50aW5nLlByaW50ZXJTZXR0aW5ncwIAAAAgU3lzdGVtLkRyYXdpbmcuUHJp
+        bnRpbmcuVHJpU3RhdGUCAAAAIVN5c3RlbS5EcmF3aW5nLlByaW50aW5nLlBhcGVyU2l6ZQIAAAAjU3lz
+        dGVtLkRyYXdpbmcuUHJpbnRpbmcuUGFwZXJTb3VyY2UCAAAAKVN5c3RlbS5EcmF3aW5nLlByaW50aW5n
+        LlByaW50ZXJSZXNvbHV0aW9uAgAAACBTeXN0ZW0uRHJhd2luZy5QcmludGluZy5UcmlTdGF0ZQIAAAAf
+        U3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuTWFyZ2lucwIAAAACAAAACQMAAAAF/P///yBTeXN0ZW0uRHJh
+        d2luZy5QcmludGluZy5UcmlTdGF0ZQEAAAAFdmFsdWUAAgIAAAAACgoKAfv////8////AAkGAAAABQMA
+        AAAnU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRlclNldHRpbmdzEgAAAAtwcmludGVyTmFtZQpk
+        cml2ZXJOYW1lCm91dHB1dFBvcnQLcHJpbnRUb0ZpbGUUcHJpbnREaWFsb2dEaXNwbGF5ZWQKZXh0cmFi
+        eXRlcwlleHRyYWluZm8GY29waWVzBmR1cGxleAdjb2xsYXRlE2RlZmF1bHRQYWdlU2V0dGluZ3MIZnJv
+        bVBhZ2UGdG9QYWdlB21heFBhZ2UHbWluUGFnZQpwcmludFJhbmdlDGRldm1vZGVieXRlcw1jYWNoZWRE
+        ZXZtb2RlAQEBAAAABwAEBAQAAAAABAAHAQEHAgceU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuRHVwbGV4
+        AgAAACBTeXN0ZW0uRHJhd2luZy5QcmludGluZy5UcmlTdGF0ZQIAAAAkU3lzdGVtLkRyYXdpbmcuUHJp
+        bnRpbmcuUGFnZVNldHRpbmdzAgAAAAgICAgiU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRSYW5n
+        ZQIAAAAHAgIAAAAKBgcAAAAACQcAAAAAAAAACv//Bfj///8eU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcu
+        RHVwbGV4AQAAAAd2YWx1ZV9fAAgCAAAA/////wH3/////P///wAJCgAAAAAAAAAAAAAADycAAAAAAAAF
+        9f///yJTeXN0ZW0uRHJhd2luZy5QcmludGluZy5QcmludFJhbmdlAQAAAAd2YWx1ZV9fAAgCAAAAAAAA
+        AAAACgUGAAAAH1N5c3RlbS5EcmF3aW5nLlByaW50aW5nLk1hcmdpbnMIAAAABGxlZnQFcmlnaHQDdG9w
+        BmJvdHRvbQpkb3VibGVMZWZ0C2RvdWJsZVJpZ2h0CWRvdWJsZVRvcAxkb3VibGVCb3R0b20AAAAAAAAA
+        AAgICAgGBgYGAgAAAGQAAABkAAAAZAAAAGQAAAAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZ
+        QAEKAAAAAQAAAAkDAAAAAfP////8////AAoKCgHy/////P///wAJDwAAAAEPAAAABgAAAGQAAABkAAAA
+        ZAAAAGQAAAAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAs=
+</value>
+  </data>
+  <data name="grdAnalysis.PropBag" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;&lt;Blob&gt;&lt;DataCols&gt;&lt;C1DataColumn Caption="Processed Date" DataField="SIRMProcessed" DataTypeInternal="System.DateTime" NumberFormat="MM/dd/yyyy  hh:mm"&gt;&lt;ValueItems /&gt;&lt;GroupInfo&gt;&lt;HeaderText&gt;Custom&lt;/HeaderText&gt;&lt;/GroupInfo&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Destination" DataField="Destination"&gt;&lt;ValueItems /&gt;&lt;GroupInfo&gt;&lt;HeaderText&gt;Custom&lt;/HeaderText&gt;&lt;/GroupInfo&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Batch Folder" DataField="BatchFolder"&gt;&lt;ValueItems /&gt;&lt;GroupInfo&gt;&lt;HeaderText&gt;Custom&lt;/HeaderText&gt;&lt;/GroupInfo&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="File Name/ DocumentID" DataField="FileNameOrDocumentID"&gt;&lt;ValueItems /&gt;&lt;GroupInfo&gt;&lt;HeaderText&gt;Custom&lt;/HeaderText&gt;&lt;/GroupInfo&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Indexed Date" DataField="IndexedDateTime" DataTypeInternal="System.DateTime" NumberFormat="MM/dd/yyyy  hh:mm"&gt;&lt;ValueItems /&gt;&lt;GroupInfo&gt;&lt;HeaderText&gt;Custom&lt;/HeaderText&gt;&lt;/GroupInfo&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Indexed By" DataField="IndexedBy" SortDirection="Descending"&gt;&lt;ValueItems /&gt;&lt;GroupInfo&gt;&lt;HeaderText&gt;Custom&lt;/HeaderText&gt;&lt;/GroupInfo&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="DocumentType" DataField="DocumentType"&gt;&lt;ValueItems /&gt;&lt;GroupInfo&gt;&lt;HeaderText&gt;Custom&lt;/HeaderText&gt;&lt;/GroupInfo&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="DocumentID" DataField="DocumentID" DataTypeInternal="System.Int32"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Order Numbers" DataField="OrderNumbers"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Invoice Number" DataField="InvoiceNumber"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Order Dates" DataField="OrderDates"&gt;&lt;ValueItems /&gt;&lt;GroupInfo&gt;&lt;HeaderText&gt;Custom&lt;/HeaderText&gt;&lt;/GroupInfo&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="ImagePath" DataField="ImagePath"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="ReadyToIndex" DataField="ReadyToIndex" DataTypeInternal="System.Boolean"&gt;&lt;ValueItems Presentation="CheckBox" /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;/DataCols&gt;&lt;Styles type="C1.Win.C1TrueDBGrid.Design.ContextWrapper"&gt;&lt;Data&gt;Style399{}Style400{}Style352{}Style9{}Style332{BackColor:Window;}Caption{AlignHorz:Center;}Style335{Trimming:Character;Wrap:True;Alpha:255;ForegroundImagePos:LeftOfText;AlignImage:Stretch;AlignVert:Center;AlignHorz:Center;GradientMode:None;}Style402{AlignHorz:Center;}Style345{}Style359{Trimming:Character;Wrap:True;Alpha:255;ForegroundImagePos:LeftOfText;AlignImage:Stretch;AlignVert:Center;AlignHorz:Center;GradientMode:None;}EvenRow{BackColor:Aqua;}Style384{AlignHorz:Near;}Style395{Trimming:Character;Wrap:True;Alpha:255;ForegroundImagePos:LeftOfText;AlignImage:Stretch;AlignVert:Center;AlignHorz:Near;GradientMode:None;}Style393{}Style340{}Style368{}Style379{}Style377{Trimming:Character;Wrap:True;Alpha:255;ForegroundImagePos:LeftOfText;AlignImage:Stretch;AlignVert:Center;AlignHorz:Center;GradientMode:None;}FilterWatermark{ForeColor:InfoText;BackColor:Info;}Style386{}Style397{}Style344{}Style331{}Style355{}Style360{AlignHorz:Near;}Style371{Trimming:Character;Wrap:True;Alpha:255;ForegroundImagePos:LeftOfText;AlignImage:Stretch;AlignVert:Center;AlignHorz:Center;GradientMode:None;}Style11{BackColor:Control;}Style15{}Style5{AlignHorz:General;BackColor:GradientActiveCaption;}Style380{}Style6{}Style391{}Style346{}Style333{}Editor{}Style364{}Style362{}Style94{}Style373{}Style382{}Style3{}Style339{}Style351{}Style366{AlignHorz:Near;}Style337{}Group{Border:None,,0, 0, 0, 0;AlignVert:Center;BackColor:ControlDark;}Style342{AlignHorz:Near;}Heading{AlignVert:Center;Border:Flat,ControlDark,0, 1, 0, 1;Wrap:True;BackColor:Control;ForeColor:ControlText;}Style353{Trimming:Character;Wrap:True;Alpha:255;ForegroundImagePos:LeftOfText;AlignImage:Stretch;AlignVert:Center;AlignHorz:Center;GradientMode:None;}Selected{ForeColor:WindowText;BackColor:239, 239, 247;}FilterBar{}Style398{}Style403{}Style330{Trimming:Character;GradientMode:None;Alpha:255;ForegroundImagePos:LeftOfText;AlignImage:Stretch;AlignVert:Top;AlignHorz:Center;BackColor:Window;}Style385{}Style329{Trimming:Character;Wrap:True;Alpha:255;ForegroundImagePos:LeftOfText;AlignImage:Stretch;AlignVert:Center;AlignHorz:Center;GradientMode:None;}Style390{AlignHorz:Near;}Style334{BackColor:GradientActiveCaption;}Style358{}Style93{}Style369{}Normal{}Style389{Trimming:Character;Wrap:True;Alpha:255;ForegroundImagePos:LeftOfText;AlignImage:Stretch;AlignVert:Center;AlignHorz:Near;GradientMode:None;}Style387{}Style394{}Style338{}Style336{AlignHorz:Near;}RecordSelector{AlignImage:Center;}Style378{Trimming:Character;GradientMode:None;Alpha:255;ForegroundImagePos:LeftOfText;AlignImage:Stretch;AlignVert:Top;AlignHorz:Far;}Style376{}Style392{}Style357{}Style381{}Style396{AlignHorz:Near;}Style347{Trimming:Character;Wrap:True;Alpha:255;ForegroundImagePos:LeftOfText;AlignImage:Stretch;AlignVert:Center;AlignHorz:Center;GradientMode:None;}Inactive{ForeColor:InactiveCaptionText;BackColor:InactiveCaption;}Style354{AlignHorz:Center;}Style8{}Style365{Trimming:Character;Wrap:True;Alpha:255;ForegroundImagePos:LeftOfText;AlignImage:Stretch;AlignVert:Center;AlignHorz:Center;GradientMode:None;}Style348{AlignHorz:Near;}Style363{}Style370{}Style12{}Style405{}Style383{Trimming:Character;Wrap:True;Alpha:255;ForegroundImagePos:LeftOfText;AlignImage:Stretch;AlignVert:Center;AlignHorz:Center;GradientMode:None;}Style401{AlignHorz:Center;}Style341{Trimming:Character;Wrap:True;Alpha:255;ForegroundImagePos:LeftOfText;AlignImage:Stretch;AlignVert:Center;AlignHorz:Center;GradientMode:None;}Style404{}Style356{}Style367{}Style374{}Style372{AlignHorz:Far;}Style16{}OddRow{}Style343{}Style406{}Style350{}Style349{}Style375{}Style10{AlignHorz:Near;}Style7{AlignHorz:General;}Style4{}Footer{}Style1{AlignHorz:General;}Style361{}Style2{}HighlightRow{ForeColor:HighlightText;BackColor:Highlight;}Style388{}&lt;/Data&gt;&lt;/Styles&gt;&lt;Splits&gt;&lt;C1.Win.C1TrueDBGrid.GroupByView Name="" CaptionHeight="17" ColumnCaptionHeight="17" ColumnFooterHeight="17" ExtendRightColumn="True" FilterBar="True" MarqueeStyle="HighlightCell" RecordSelectorWidth="17" DefRecSelWidth="17" VerticalScrollGroup="1" HorizontalScrollGroup="1"&gt;&lt;Height&gt;317&lt;/Height&gt;&lt;CaptionStyle parent="Heading" me="Style10" /&gt;&lt;EditorStyle parent="Editor" me="Style2" /&gt;&lt;EvenRowStyle parent="EvenRow" me="Style8" /&gt;&lt;FilterBarStyle parent="FilterBar" me="Style93" /&gt;&lt;FilterWatermarkStyle parent="FilterWatermark" me="Style94" /&gt;&lt;FooterStyle parent="Footer" me="Style4" /&gt;&lt;GroupStyle parent="Group" me="Style12" /&gt;&lt;HeadingStyle parent="Heading" me="Style3" /&gt;&lt;HighLightRowStyle parent="HighlightRow" me="Style7" /&gt;&lt;InactiveStyle parent="Inactive" me="Style6" /&gt;&lt;OddRowStyle parent="OddRow" me="Style9" /&gt;&lt;RecordSelectorStyle parent="RecordSelector" me="Style11" /&gt;&lt;SelectedStyle parent="Selected" me="Style5" /&gt;&lt;Style parent="Normal" me="Style1" /&gt;&lt;internalCols&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style3" me="Style329" /&gt;&lt;Style parent="Style1" me="Style330" /&gt;&lt;FooterStyle parent="Style4" me="Style331" /&gt;&lt;EditorStyle parent="Style2" me="Style332" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style334" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style333" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;86&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;0&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style3" me="Style341" /&gt;&lt;Style parent="Style1" me="Style342" /&gt;&lt;FooterStyle parent="Style4" me="Style343" /&gt;&lt;EditorStyle parent="Style2" me="Style344" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style346" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style345" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;DCIdx&gt;2&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style3" me="Style335" /&gt;&lt;Style parent="Style1" me="Style336" /&gt;&lt;FooterStyle parent="Style4" me="Style337" /&gt;&lt;EditorStyle parent="Style2" me="Style338" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style340" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style339" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;AllowSizing&gt;False&lt;/AllowSizing&gt;&lt;DCIdx&gt;1&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style3" me="Style347" /&gt;&lt;Style parent="Style1" me="Style348" /&gt;&lt;FooterStyle parent="Style4" me="Style349" /&gt;&lt;EditorStyle parent="Style2" me="Style350" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style352" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style351" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;149&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;DCIdx&gt;3&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style3" me="Style365" /&gt;&lt;Style parent="Style1" me="Style366" /&gt;&lt;FooterStyle parent="Style4" me="Style367" /&gt;&lt;EditorStyle parent="Style2" me="Style368" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style370" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style369" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;AllowSizing&gt;False&lt;/AllowSizing&gt;&lt;DCIdx&gt;6&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style3" me="Style353" /&gt;&lt;Style parent="Style1" me="Style354" /&gt;&lt;FooterStyle parent="Style4" me="Style355" /&gt;&lt;EditorStyle parent="Style2" me="Style356" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style358" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style357" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;114&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;4&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style3" me="Style359" /&gt;&lt;Style parent="Style1" me="Style360" /&gt;&lt;FooterStyle parent="Style4" me="Style361" /&gt;&lt;EditorStyle parent="Style2" me="Style362" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style364" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style363" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;5&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style3" me="Style371" /&gt;&lt;Style parent="Style1" me="Style372" /&gt;&lt;FooterStyle parent="Style4" me="Style373" /&gt;&lt;EditorStyle parent="Style2" me="Style374" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style376" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style375" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;68&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;7&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style3" me="Style377" /&gt;&lt;Style parent="Style1" me="Style378" /&gt;&lt;FooterStyle parent="Style4" me="Style379" /&gt;&lt;EditorStyle parent="Style2" me="Style380" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style382" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style381" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;83&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;8&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style3" me="Style383" /&gt;&lt;Style parent="Style1" me="Style384" /&gt;&lt;FooterStyle parent="Style4" me="Style385" /&gt;&lt;EditorStyle parent="Style2" me="Style386" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style388" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style387" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;84&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;9&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style3" me="Style389" /&gt;&lt;Style parent="Style1" me="Style390" /&gt;&lt;FooterStyle parent="Style4" me="Style391" /&gt;&lt;EditorStyle parent="Style2" me="Style392" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style394" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style393" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;10&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style3" me="Style395" /&gt;&lt;Style parent="Style1" me="Style396" /&gt;&lt;FooterStyle parent="Style4" me="Style397" /&gt;&lt;EditorStyle parent="Style2" me="Style398" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style400" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style399" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;11&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style3" me="Style401" /&gt;&lt;Style parent="Style1" me="Style402" /&gt;&lt;FooterStyle parent="Style4" me="Style403" /&gt;&lt;EditorStyle parent="Style2" me="Style404" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style406" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style405" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;12&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;/internalCols&gt;&lt;ClientRect&gt;0, 29, 770, 317&lt;/ClientRect&gt;&lt;BorderSide&gt;0&lt;/BorderSide&gt;&lt;/C1.Win.C1TrueDBGrid.GroupByView&gt;&lt;/Splits&gt;&lt;NamedStyles&gt;&lt;Style parent="" me="Normal" /&gt;&lt;Style parent="Normal" me="Heading" /&gt;&lt;Style parent="Heading" me="Footer" /&gt;&lt;Style parent="Heading" me="Caption" /&gt;&lt;Style parent="Heading" me="Inactive" /&gt;&lt;Style parent="Normal" me="Selected" /&gt;&lt;Style parent="Normal" me="Editor" /&gt;&lt;Style parent="Normal" me="HighlightRow" /&gt;&lt;Style parent="Normal" me="EvenRow" /&gt;&lt;Style parent="Normal" me="OddRow" /&gt;&lt;Style parent="Heading" me="RecordSelector" /&gt;&lt;Style parent="Normal" me="FilterBar" /&gt;&lt;Style parent="FilterBar" me="FilterWatermark" /&gt;&lt;Style parent="Caption" me="Group" /&gt;&lt;/NamedStyles&gt;&lt;vertSplits&gt;1&lt;/vertSplits&gt;&lt;horzSplits&gt;1&lt;/horzSplits&gt;&lt;Layout&gt;Modified&lt;/Layout&gt;&lt;DefaultRecSelWidth&gt;17&lt;/DefaultRecSelWidth&gt;&lt;ClientArea&gt;0, 0, 770, 346&lt;/ClientArea&gt;&lt;PrintPageHeaderStyle parent="" me="Style15" /&gt;&lt;PrintPageFooterStyle parent="" me="Style16" /&gt;&lt;/Blob&gt;</value>
+  </data>
+  <metadata name="menuMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>585, 10</value>
+  </metadata>
+  <data name="C1TrueDBGrid1.Images" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA3SURBVChTY2DABP+xiIGFkCVwsVEUwhThNREkiaEAJoiP
+        RnEmskKs7kd3C1YrYTrx+g6bIrAYAKCqHOQvFu6BAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="C1TrueDBGrid1.PrintInfo.PageSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACRTeXN0ZW0uRHJh
+        d2luZy5QcmludGluZy5QYWdlU2V0dGluZ3MHAAAAD3ByaW50ZXJTZXR0aW5ncwVjb2xvcglwYXBlclNp
+        emULcGFwZXJTb3VyY2URcHJpbnRlclJlc29sdXRpb24JbGFuZHNjYXBlB21hcmdpbnMEBAQEBAQEJ1N5
+        c3RlbS5EcmF3aW5nLlByaW50aW5nLlByaW50ZXJTZXR0aW5ncwIAAAAgU3lzdGVtLkRyYXdpbmcuUHJp
+        bnRpbmcuVHJpU3RhdGUCAAAAIVN5c3RlbS5EcmF3aW5nLlByaW50aW5nLlBhcGVyU2l6ZQIAAAAjU3lz
+        dGVtLkRyYXdpbmcuUHJpbnRpbmcuUGFwZXJTb3VyY2UCAAAAKVN5c3RlbS5EcmF3aW5nLlByaW50aW5n
+        LlByaW50ZXJSZXNvbHV0aW9uAgAAACBTeXN0ZW0uRHJhd2luZy5QcmludGluZy5UcmlTdGF0ZQIAAAAf
+        U3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuTWFyZ2lucwIAAAACAAAACQMAAAAF/P///yBTeXN0ZW0uRHJh
+        d2luZy5QcmludGluZy5UcmlTdGF0ZQEAAAAFdmFsdWUAAgIAAAAACgoKAfv////8////AAkGAAAABQMA
+        AAAnU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRlclNldHRpbmdzEgAAAAtwcmludGVyTmFtZQpk
+        cml2ZXJOYW1lCm91dHB1dFBvcnQLcHJpbnRUb0ZpbGUUcHJpbnREaWFsb2dEaXNwbGF5ZWQKZXh0cmFi
+        eXRlcwlleHRyYWluZm8GY29waWVzBmR1cGxleAdjb2xsYXRlE2RlZmF1bHRQYWdlU2V0dGluZ3MIZnJv
+        bVBhZ2UGdG9QYWdlB21heFBhZ2UHbWluUGFnZQpwcmludFJhbmdlDGRldm1vZGVieXRlcw1jYWNoZWRE
+        ZXZtb2RlAQEBAAAABwAEBAQAAAAABAAHAQEHAgceU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuRHVwbGV4
+        AgAAACBTeXN0ZW0uRHJhd2luZy5QcmludGluZy5UcmlTdGF0ZQIAAAAkU3lzdGVtLkRyYXdpbmcuUHJp
+        bnRpbmcuUGFnZVNldHRpbmdzAgAAAAgICAgiU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRSYW5n
+        ZQIAAAAHAgIAAAAKBgcAAAAACQcAAAAAAAAACv//Bfj///8eU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcu
+        RHVwbGV4AQAAAAd2YWx1ZV9fAAgCAAAA/////wH3/////P///wAJCgAAAAAAAAAAAAAADycAAAAAAAAF
+        9f///yJTeXN0ZW0uRHJhd2luZy5QcmludGluZy5QcmludFJhbmdlAQAAAAd2YWx1ZV9fAAgCAAAAAAAA
+        AAAACgUGAAAAH1N5c3RlbS5EcmF3aW5nLlByaW50aW5nLk1hcmdpbnMIAAAABGxlZnQFcmlnaHQDdG9w
+        BmJvdHRvbQpkb3VibGVMZWZ0C2RvdWJsZVJpZ2h0CWRvdWJsZVRvcAxkb3VibGVCb3R0b20AAAAAAAAA
+        AAgICAgGBgYGAgAAAGQAAABkAAAAZAAAAGQAAAAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZ
+        QAEKAAAAAQAAAAkDAAAAAfP////8////AAoKCgHy/////P///wAJDwAAAAEPAAAABgAAAGQAAABkAAAA
+        ZAAAAGQAAAAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAs=
+</value>
+  </data>
+  <data name="C1TrueDBGrid1.PropBag" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;&lt;Blob&gt;&lt;DataCols&gt;&lt;C1DataColumn Relation="True" Caption="SIRMProcessed" DataField="SIRMProcessed" DataTypeInternal="System.DateTime" EnableDateTimeEditor="False" NumberFormat="d"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Destination" DataField="Destination" EnableDateTimeEditor="False"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="BatchFolder" DataField="BatchFolder"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="FileNameOrDocumentID" DataField="FileNameOrDocumentID"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="IndexedDateTime" DataField="IndexedDateTime" DataTypeInternal="System.DateTime" NumberFormat="d"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="IndexedBy" DataField="IndexedBy"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="DocumentType" DataField="DocumentType"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="DocumentID" DataField="DocumentID" DataTypeInternal="System.Int32"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="OrderNumbers" DataField="OrderNumbers"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="InvoiceNumber" DataField="InvoiceNumber"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="OrderDates" DataField="OrderDates"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="ImagePath" DataField="ImagePath"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="ReadyToIndex" DataField="ReadyToIndex" DataTypeInternal="System.Boolean"&gt;&lt;ValueItems Presentation="CheckBox" /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;/DataCols&gt;&lt;Styles type="C1.Win.C1TrueDBGrid.Design.ContextWrapper"&gt;&lt;Data&gt;Style1505{AlignHorz:Near;}Caption{AlignHorz:Center;}Style1492{}Style1493{AlignHorz:Near;}Style1490{}Style1491{}Style1543{}Style1540{}Style1541{AlignHorz:Near;}Style1495{}Style1547{AlignHorz:Near;}Style1544{}Style1545{}Style1478{}Style1479{}Style1548{AlignHorz:Near;}Style1549{}Style1562{}FilterWatermark{ForeColor:InfoText;BackColor:Info;}Style1560{AlignHorz:Center;}Style1561{}Style1566{}Style1564{}Style1565{}Style1502{}Style1503{}Style1500{AlignHorz:Near;}Style1501{}Style1496{}Style1507{}Style1504{}Editor{}Style1508{}Style1509{}Style1494{AlignHorz:Near;}Style1476{}Style1522{}Style1523{AlignHorz:Near;}Style1520{}Style1521{}Style1526{}Style1527{}Style1524{AlignHorz:Near;}Style1525{}Style1477{}Style1528{}Style1529{AlignHorz:Near;}Style1498{}Style1475{}Group{Border:None,,0, 0, 0, 0;AlignVert:Center;BackColor:ControlDark;}Heading{ForeColor:ControlText;Border:Flat,ControlDark,0, 1, 0, 1;AlignVert:Center;BackColor:Control;Wrap:True;}Style1506{AlignHorz:Near;}FilterBar{}Style1519{}Style1563{}Style1552{}EvenRow{BackColor:Aqua;}Style1550{}Style1551{}Style1556{}Style1557{}Style1554{AlignHorz:Near;}Style1555{}Inactive{ForeColor:InactiveCaptionText;BackColor:InactiveCaption;}Style1558{}Style1559{AlignHorz:Near;}Style1482{}Normal{}Style1480{}Style1481{}Style1486{}Style1487{AlignHorz:Near;}Style1484{AlignHorz:Near;}OddRow{}Style1532{}Style1488{AlignHorz:Far;}Style1489{}RecordSelector{AlignImage:Center;}Style1483{}Style1512{AlignHorz:Far;}Style1513{}Style1510{}Style1511{AlignHorz:Near;}Style1516{}Style1517{AlignHorz:Near;}Style1514{}Style1515{}Style15{}Style1518{AlignHorz:Near;}Style1546{}Style1485{}Style1497{}Style1533{}Style1530{AlignHorz:Far;}Style1531{}Style1536{AlignHorz:Near;}Style1537{}Style16{}Style1535{AlignHorz:Near;}Style1538{}Style1539{}Style1542{AlignHorz:Near;}Style1534{}Selected{ForeColor:HighlightText;BackColor:Highlight;}Style1499{AlignHorz:Near;}Footer{}HighlightRow{ForeColor:HighlightText;BackColor:Highlight;}Style1553{AlignHorz:Near;}&lt;/Data&gt;&lt;/Styles&gt;&lt;Splits&gt;&lt;C1.Win.C1TrueDBGrid.GroupByView Name="" CaptionHeight="17" ColumnCaptionHeight="17" ColumnFooterHeight="17" MarqueeStyle="DottedCellBorder" RecordSelectorWidth="17" DefRecSelWidth="17" VerticalScrollGroup="1" HorizontalScrollGroup="1"&gt;&lt;Height&gt;253&lt;/Height&gt;&lt;CaptionStyle parent="Heading" me="Style1484" /&gt;&lt;EditorStyle parent="Editor" me="Style1476" /&gt;&lt;EvenRowStyle parent="EvenRow" me="Style1482" /&gt;&lt;FilterBarStyle parent="FilterBar" me="Style1565" /&gt;&lt;FilterWatermarkStyle parent="FilterWatermark" me="Style1566" /&gt;&lt;FooterStyle parent="Footer" me="Style1478" /&gt;&lt;GroupStyle parent="Group" me="Style1486" /&gt;&lt;HeadingStyle parent="Heading" me="Style1477" /&gt;&lt;HighLightRowStyle parent="HighlightRow" me="Style1481" /&gt;&lt;InactiveStyle parent="Inactive" me="Style1480" /&gt;&lt;OddRowStyle parent="OddRow" me="Style1483" /&gt;&lt;RecordSelectorStyle parent="RecordSelector" me="Style1485" /&gt;&lt;SelectedStyle parent="Selected" me="Style1479" /&gt;&lt;Style parent="Normal" me="Style1475" /&gt;&lt;internalCols&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style1477" me="Style1487" /&gt;&lt;Style parent="Style1475" me="Style1488" /&gt;&lt;FooterStyle parent="Style1478" me="Style1489" /&gt;&lt;EditorStyle parent="Style1476" me="Style1490" /&gt;&lt;GroupHeaderStyle parent="Style1475" me="Style1492" /&gt;&lt;GroupFooterStyle parent="Style1475" me="Style1491" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;104&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;0&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style1477" me="Style1493" /&gt;&lt;Style parent="Style1475" me="Style1494" /&gt;&lt;FooterStyle parent="Style1478" me="Style1495" /&gt;&lt;EditorStyle parent="Style1476" me="Style1496" /&gt;&lt;GroupHeaderStyle parent="Style1475" me="Style1498" /&gt;&lt;GroupFooterStyle parent="Style1475" me="Style1497" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;104&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;DCIdx&gt;1&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style1477" me="Style1499" /&gt;&lt;Style parent="Style1475" me="Style1500" /&gt;&lt;FooterStyle parent="Style1478" me="Style1501" /&gt;&lt;EditorStyle parent="Style1476" me="Style1502" /&gt;&lt;GroupHeaderStyle parent="Style1475" me="Style1504" /&gt;&lt;GroupFooterStyle parent="Style1475" me="Style1503" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;104&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;DCIdx&gt;2&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style1477" me="Style1505" /&gt;&lt;Style parent="Style1475" me="Style1506" /&gt;&lt;FooterStyle parent="Style1478" me="Style1507" /&gt;&lt;EditorStyle parent="Style1476" me="Style1508" /&gt;&lt;GroupHeaderStyle parent="Style1475" me="Style1510" /&gt;&lt;GroupFooterStyle parent="Style1475" me="Style1509" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;104&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;DCIdx&gt;3&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style1477" me="Style1511" /&gt;&lt;Style parent="Style1475" me="Style1512" /&gt;&lt;FooterStyle parent="Style1478" me="Style1513" /&gt;&lt;EditorStyle parent="Style1476" me="Style1514" /&gt;&lt;GroupHeaderStyle parent="Style1475" me="Style1516" /&gt;&lt;GroupFooterStyle parent="Style1475" me="Style1515" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;104&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;4&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style1477" me="Style1517" /&gt;&lt;Style parent="Style1475" me="Style1518" /&gt;&lt;FooterStyle parent="Style1478" me="Style1519" /&gt;&lt;EditorStyle parent="Style1476" me="Style1520" /&gt;&lt;GroupHeaderStyle parent="Style1475" me="Style1522" /&gt;&lt;GroupFooterStyle parent="Style1475" me="Style1521" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;104&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;5&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style1477" me="Style1523" /&gt;&lt;Style parent="Style1475" me="Style1524" /&gt;&lt;FooterStyle parent="Style1478" me="Style1525" /&gt;&lt;EditorStyle parent="Style1476" me="Style1526" /&gt;&lt;GroupHeaderStyle parent="Style1475" me="Style1528" /&gt;&lt;GroupFooterStyle parent="Style1475" me="Style1527" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;104&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;6&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style1477" me="Style1529" /&gt;&lt;Style parent="Style1475" me="Style1530" /&gt;&lt;FooterStyle parent="Style1478" me="Style1531" /&gt;&lt;EditorStyle parent="Style1476" me="Style1532" /&gt;&lt;GroupHeaderStyle parent="Style1475" me="Style1534" /&gt;&lt;GroupFooterStyle parent="Style1475" me="Style1533" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;104&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;7&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style1477" me="Style1535" /&gt;&lt;Style parent="Style1475" me="Style1536" /&gt;&lt;FooterStyle parent="Style1478" me="Style1537" /&gt;&lt;EditorStyle parent="Style1476" me="Style1538" /&gt;&lt;GroupHeaderStyle parent="Style1475" me="Style1540" /&gt;&lt;GroupFooterStyle parent="Style1475" me="Style1539" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;104&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;8&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style1477" me="Style1541" /&gt;&lt;Style parent="Style1475" me="Style1542" /&gt;&lt;FooterStyle parent="Style1478" me="Style1543" /&gt;&lt;EditorStyle parent="Style1476" me="Style1544" /&gt;&lt;GroupHeaderStyle parent="Style1475" me="Style1546" /&gt;&lt;GroupFooterStyle parent="Style1475" me="Style1545" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;104&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;9&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style1477" me="Style1547" /&gt;&lt;Style parent="Style1475" me="Style1548" /&gt;&lt;FooterStyle parent="Style1478" me="Style1549" /&gt;&lt;EditorStyle parent="Style1476" me="Style1550" /&gt;&lt;GroupHeaderStyle parent="Style1475" me="Style1552" /&gt;&lt;GroupFooterStyle parent="Style1475" me="Style1551" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;101&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;10&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style1477" me="Style1553" /&gt;&lt;Style parent="Style1475" me="Style1554" /&gt;&lt;FooterStyle parent="Style1478" me="Style1555" /&gt;&lt;EditorStyle parent="Style1476" me="Style1556" /&gt;&lt;GroupHeaderStyle parent="Style1475" me="Style1558" /&gt;&lt;GroupFooterStyle parent="Style1475" me="Style1557" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;570&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;SubLine&gt;1&lt;/SubLine&gt;&lt;DCIdx&gt;11&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style1477" me="Style1559" /&gt;&lt;Style parent="Style1475" me="Style1560" /&gt;&lt;FooterStyle parent="Style1478" me="Style1561" /&gt;&lt;EditorStyle parent="Style1476" me="Style1562" /&gt;&lt;GroupHeaderStyle parent="Style1475" me="Style1564" /&gt;&lt;GroupFooterStyle parent="Style1475" me="Style1563" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;580&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;SubLine&gt;1&lt;/SubLine&gt;&lt;DCIdx&gt;12&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;/internalCols&gt;&lt;ClientRect&gt;0, 29, 1169, 253&lt;/ClientRect&gt;&lt;BorderSide&gt;0&lt;/BorderSide&gt;&lt;/C1.Win.C1TrueDBGrid.GroupByView&gt;&lt;/Splits&gt;&lt;NamedStyles&gt;&lt;Style parent="" me="Normal" /&gt;&lt;Style parent="Normal" me="Heading" /&gt;&lt;Style parent="Heading" me="Footer" /&gt;&lt;Style parent="Heading" me="Caption" /&gt;&lt;Style parent="Heading" me="Inactive" /&gt;&lt;Style parent="Normal" me="Selected" /&gt;&lt;Style parent="Normal" me="Editor" /&gt;&lt;Style parent="Normal" me="HighlightRow" /&gt;&lt;Style parent="Normal" me="EvenRow" /&gt;&lt;Style parent="Normal" me="OddRow" /&gt;&lt;Style parent="Heading" me="RecordSelector" /&gt;&lt;Style parent="Normal" me="FilterBar" /&gt;&lt;Style parent="FilterBar" me="FilterWatermark" /&gt;&lt;Style parent="Caption" me="Group" /&gt;&lt;/NamedStyles&gt;&lt;vertSplits&gt;1&lt;/vertSplits&gt;&lt;horzSplits&gt;1&lt;/horzSplits&gt;&lt;Layout&gt;Modified&lt;/Layout&gt;&lt;DefaultRecSelWidth&gt;17&lt;/DefaultRecSelWidth&gt;&lt;ClientArea&gt;0, 0, 1169, 282&lt;/ClientArea&gt;&lt;PrintPageHeaderStyle parent="" me="Style15" /&gt;&lt;PrintPageFooterStyle parent="" me="Style16" /&gt;&lt;/Blob&gt;</value>
+  </data>
+  <metadata name="ListImageIO_IndexedIntoDoclinkTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>76, 9</value>
+  </metadata>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAQAAAAAADoAgAAJgAAABAQEAAAAAAAKAEAAA4DAAAoAAAAIAAAAEAAAAABAAQAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAICAgADAwMAAAAD/AAD/
+        AAAA//8A/wAAAAAAAAD//wAA////AN3d3d3d3d3d3d3d3d3d3d3d3d3d3d3YzI3d3d3d3d3d3d3d3d3d
+        jETI3d3d3d3d3d3d3d3d2MRETI3d3d3d3d3d3d3d3YxERETI3d3d3d3d3d3d3djERERETI3d3d3d3d3d
+        3d3d3dxETd3d3d3d3d3d3d3d3d3cRE3d3d3d3d3d3d3d3d3d0zMz3d3d3d3d3d3d3d3dMzuPizM93d3d
+        3d3d3djd04v/+LizM93Y3d3d3d2M3dM4+4+LODPd3I3d3d3YxN3Ti//4uLMz3dTI3d3djETd0zj7j4s4
+        M93UTI3d2MREREOL//i4szNERETI3dxERERDOPuPizgzRERETN3cREREQ4v/+LizM0REREzd2MREzMM4
+        +4+LODPMxETI3d2MRN3Ti//4uLMz3dRMjd3d2MTd0zj7j4s4M93UyN3d3d2M3dOL+/v7szPd3I3d3d3d
+        2N3TP7+/v7sz3djd3d3d3d3d3TP7+/vzPd3d3d3d3d3d3d3dMzMzPd3d3d3d3d3d3d3d3dxETd3d3d3d
+        3d3d3d3d3d3cRE3d3d3d3d3d3d3d3djERERETI3d3d3d3d3d3d3djERERMjd3d3d3d3d3d3d3djEREyN
+        3d3d3d3d3d3d3d3djETI3d3d3d3d3d3d3d3d3djMjd3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d///////4
+        f///8D///+Af///AD///gAf///h////4f///+D///8AH//uAA7/zgAOf44ADj8OAA4eAAAADgAAAA4AA
+        AAOAAAADw4ADh+OAA4/zgAOf+4ADv//AB///8B////h////4f///gAf//8AP///gH///8D////h/////
+        //8oAAAAEAAAACAAAAABAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAA
+        AACAAIAAgIAAAICAgADAwMAAAAD/AAD/AAAA//8A/wAAAAAAAAD//wAA////AN3d3UTd3d3d3d3URE3d
+        3d3d3URERN3d3d3d3UTd3d3d3d3TMzPd3d3dTTj4Mz1N3dRNO/iDPUTdREQ7+IM0RE1ERDv4gzRETdRN
+        O7iDPUTd3U07+7g9Td3d3dMzM93d3d3d3UTd3d3d3d1ERETd3d3d3dRETd3d3d3d3UTd3d3d/P/d3fh/
+        0zPwP93d/P/d3fg/3d3QFzuPkBM93QAB3d0AAdjdkBP/+NAXM934P93d/P+M3fA/+4/4fzPd/P/d3Q==
+</value>
+  </data>
+</root>

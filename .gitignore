@@ -1,0 +1,131 @@
+# =========================
+# Visual Studio / VB.NET .gitignore
+# =========================
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options directory
+.vs/
+
+# MSBuild / NuGet
+*.binlog
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# ReSharper / Rider
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Build / Publish output
+*.exe
+*.dll.config
+*.pdb
+*.cache
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+*.vshost.exe
+*.vshost.exe.config
+*.vshost.exe.manifest
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# TestResults
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Code coverage
+*.coverage
+*.coveragexml
+coverage*/
+
+# Click-Once / Publish
+publish/
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishScripts/
+
+# Azure / Service Fabric
+csx/
+*.build.csdef
+
+# Backup & temporary files
+*.bak
+*.tmp
+*.temp
+*.swp
+*.~*
+*~
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Source Control (Visual SourceSafe / older bindings)
+*.vssscc
+*.vspscc
+mssccprj.scc
+*.scc
+
+# Strong name / signing keys (DO NOT COMMIT)
+*.pfx
+*.snk
+
+# Local config / secrets
+*.config.local
+secrets.json
+appsettings.*.local.json
+
+# Office temporary files
+~$*
+
+# Node (in case any tooling is used)
+node_modules/
